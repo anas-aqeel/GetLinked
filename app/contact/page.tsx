@@ -34,10 +34,10 @@ const Page = () => {
             <div className="flex flex-col gap-y-4">
               <p className="text-[#D434FE]">Follow on</p>
               <div className="flex space-x-4 items-center">
-                <Image src={instaIcon} alt="" className="h-6 w-auto" />
-                <Image src={xIcon} alt="" className="h-4 w-auto" />
-                <Image src={fbIcon} alt="" className="h-4 w-auto" />
-                <Image src={inIcon} alt="" className="h-4 w-auto" />
+                <Image placeholder="blur"  src={instaIcon} alt="" className="h-6 w-auto" />
+                <Image placeholder="blur"  src={xIcon} alt="" className="h-4 w-auto" />
+                <Image placeholder="blur"  src={fbIcon} alt="" className="h-4 w-auto" />
+                <Image placeholder="blur"  src={inIcon} alt="" className="h-4 w-auto" />
               </div>
             </div>
           </div>

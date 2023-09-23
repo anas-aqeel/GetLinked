@@ -17,7 +17,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       </div>
       <div className="font-clash text-lg text-[#D434FE] flex items-center space-x-2 md:hidden border-none pt-7 pb-10 px-16 bg-[#150E28]">
         <Link href={'/'}>
-          <Image src={backImg} alt="" />
+          <Image placeholder="blur"  src={backImg} alt="" />
         </Link>
         <p>Register</p>
       </div>

@@ -26,7 +26,7 @@ const Navbar = () => {
                 title=""
                 className="flex rounded outline-none border-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
               >
-                <Image className="w-[170px] h-auto" src={logo} alt="" />
+                <Image placeholder="blur"  className="w-[170px] h-auto" src={logo} alt="" />
               </Link>
             </div>
 
@@ -36,7 +36,7 @@ const Navbar = () => {
                 className=""
                 onClick={() => setOpenNavbar(true)}
               >
-                <Image src={linesIcon} alt="" />
+                <Image placeholder="blur"  src={linesIcon} alt="" />
               </button>
             </div>
 
@@ -70,9 +70,9 @@ const Navbar = () => {
         }`}
       >
         <div className="flex justify-between mb-16">
-          <Image src={logo} alt="" />
+          <Image placeholder="blur"  src={logo} alt="" />
           <button onClick={() => setOpenNavbar(false)}>
-            <Image src={closeIcon} alt="" />
+            <Image placeholder="blur"  src={closeIcon} alt="" />
           </button>
         </div>
         <div className="text-white  flex flex-col space-y-6">

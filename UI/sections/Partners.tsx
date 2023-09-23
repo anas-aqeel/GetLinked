@@ -16,8 +16,8 @@ const Partners = () => {
             companies as its partners and sponsors
           </p>
         </div>
-        <Image src={partnerImg} alt="" className='w-full h-auto mt-6 hidden md:flex'/>
-        <Image src={partnerSmImg} alt="" className='w-full h-auto flex md:hidden mt-10'/>
+        <Image placeholder="blur"  src={partnerImg} alt="" className='w-full h-auto mt-6 hidden md:flex'/>
+        <Image placeholder="blur"  src={partnerSmImg} alt="" className='w-full h-auto flex md:hidden mt-10'/>
       </div>
     </div>
   )

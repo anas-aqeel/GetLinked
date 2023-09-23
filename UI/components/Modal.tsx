@@ -12,7 +12,7 @@ const Modal = ({ openModal }: { openModal: boolean }) => {
       } transition-all duration-300  top-0 bottom-0 w-screen h-screen flex justify-center items-center z-50 px-8 bg-[#150E28] bg-opacity-90`}
     >
       <div className="border border-[#D434FE] rounded-md max-w-2xl mx-auto my-auto flex flex-col items-center gap-y-5 px-14 pt-8 py-8 md:pb-16 ">
-        <Image src={modalImg} alt="" />
+        <Image placeholder="blur"  src={modalImg} alt="" />
         <div className="text-white font-semibold text-lg md:text-3xl text-center">
           <p>Congratulations</p>
           <p>you have successfully Registered!</p>

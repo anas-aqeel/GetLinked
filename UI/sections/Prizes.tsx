@@ -21,8 +21,8 @@ const Prizes = () => {
           </div>
         </div>
 
-        <Image src={trophyImg} alt="" className="w-full h-auto hidden md:flex" />
-        <Image src={trophySmImg} alt="" className="w-full h-auto flex md:hidden" />
+        <Image placeholder="blur"  src={trophyImg} alt="" className="w-full h-auto hidden md:flex" />
+        <Image placeholder="blur"  src={trophySmImg} alt="" className="w-full h-auto flex md:hidden" />
         <div className="flex-col ">
           <div className="self-center hidden md:block">
             <div className="font-clash text-3xl font-bold text-white ">
@@ -38,7 +38,7 @@ const Prizes = () => {
           </div>
 
           <div className="md:mt-[56px]">
-            <Image src={awardsImg} alt="" className="w-full h-auto" />
+            <Image placeholder="blur"  src={awardsImg} alt="" className="w-full h-auto" />
           </div>
         </div>
       </div>

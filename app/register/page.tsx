@@ -12,10 +12,10 @@ const Page = () => {
     <div className="bg-[#150E28] py-10 md:py-[130px]">
       <div className="max-w-[1280px] px-16 md:px-5 mx-auto grid md:grid-cols-11">
         <div className="md:flex flex-col hidden md:col-span-5">
-          <Image src={registerImg} alt="" />
+          <Image placeholder="blur"  src={registerImg} alt="" />
         </div>
         <div className="md:hidden flex-col items-center w-full flex md:col-span-5">
-          <Image src={registerSmImg} className="w-full h-auto" alt="" />
+          <Image placeholder="blur"  src={registerSmImg} className="w-full h-auto" alt="" />
         </div>
         <div className="w-full max-w-[750px] md:col-span-6">
           <RegisterationForm setOpenModal={setOpenModal}/>

@@ -33,7 +33,7 @@ const ContactForm = () => {
     <div className="">
       <div className="flex md:hidden py-11 px-10">
         <Link href={'/'}>
-          <Image src={backImg} alt="" />
+          <Image placeholder="blur"  src={backImg} alt="" />
         </Link>
       </div>
       <div className="md:bg-white md:bg-opacity-[0.03] rounded-xl px-10 md:py-16 ">
@@ -74,10 +74,10 @@ const ContactForm = () => {
         <div className="flex flex-col gap-y-4 mt-10 md:hidden">
           <p className="text-[#D434FE] text-center">Follow on</p>
           <div className="flex space-x-4 items-center justify-center">
-            <Image src={instaIcon} alt="" className="h-6 w-auto" />
-            <Image src={xIcon} alt="" className="h-4 w-auto" />
-            <Image src={fbIcon} alt="" className="h-4 w-auto" />
-            <Image src={inIcon} alt="" className="h-4 w-auto" />
+            <Image placeholder="blur"  src={instaIcon} alt="" className="h-6 w-auto" />
+            <Image placeholder="blur"  src={xIcon} alt="" className="h-4 w-auto" />
+            <Image placeholder="blur"  src={fbIcon} alt="" className="h-4 w-auto" />
+            <Image placeholder="blur"  src={inIcon} alt="" className="h-4 w-auto" />
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ const Criteria = () => {
   return (
     <div className="pt-5 md:pt-[92px] pb-14 md:pb-[171px] bg-[#140D27] border-y border-white border-opacity-[0.18]">
       <div className="max-w-[1382px] mx-auto grid md:grid-cols-2 gap-x-[53px] place-items-center px-8 md:px-5">
-        <Image src={criteriaImg} alt="" className="w-full h-auto" />
+        <Image placeholder="blur"  src={criteriaImg} alt="" className="w-full h-auto" />
         <div className="max-w-[564px]">
           <div className="font-clash md:text-left text-center text-xl md:text-3xl font-bold text-white">
             <h1 className="">Judging Criteria</h1>

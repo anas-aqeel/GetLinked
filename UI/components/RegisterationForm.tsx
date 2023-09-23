@@ -39,7 +39,7 @@ const RegisterationForm = ({ setOpenModal }: any) => {
   return (
     <div className="md:bg-white md:bg-opacity-[0.03] rounded-xl md:py-16 md:px-20">
       <div className="text-white mt-12 text-sm md:text-base flex items-baseline space-x-3">
-        <p>Be part of this movement! </p> <Image src={registerEmoji} alt="" />
+        <p>Be part of this movement! </p> <Image placeholder="blur"  src={registerEmoji} alt="" />
       </div>
       <div className="mt-5 text-2xl text-white">CREATE YOUR ACCOUNT</div>
       <form action="" ref={formRef} className="mt-8 flex flex-col gap-6">

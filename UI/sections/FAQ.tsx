@@ -57,7 +57,7 @@ const Intro = () => {
             </div>
           </div>
         </div>
-        <Image src={faqImg} alt="" className="w-full md:w-[55%] h-auto" />
+        <Image placeholder="blur"  src={faqImg} alt="" className="w-full md:w-[55%] h-auto" />
       </div>
     </div>
   )

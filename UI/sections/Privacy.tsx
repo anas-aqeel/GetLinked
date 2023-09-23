@@ -24,7 +24,7 @@ const Privacy = () => {
             </div>
           </div>
         </div>
-        <Image src={PrivacyImg} alt="" className="w-full h-auto md:col-span-7" />
+        <Image placeholder="blur"  src={PrivacyImg} alt="" className="w-full h-auto md:col-span-7" />
       </div>
     </div>
   )

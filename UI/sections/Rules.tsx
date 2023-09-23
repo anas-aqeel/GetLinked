@@ -22,7 +22,7 @@ const Rules = () => {
             </p>
           </div>
         </div>
-        <Image src={rulesImg} alt="" className="w-full md:w-1/2 h-auto" />
+        <Image placeholder="blur"  src={rulesImg} alt="" className="w-full md:w-1/2 h-auto" />
       </div>
     </div>
   )

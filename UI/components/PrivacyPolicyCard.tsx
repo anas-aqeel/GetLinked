@@ -23,14 +23,14 @@ const PrivacyPolicyCard = () => {
       </h4>
       <div className="mt-6">
         <div className="flex items-start gap-x-3.5">
-          <Image src={CheckIcon} alt="" className="w-5 h-auto" />
+          <Image placeholder="blur"  src={CheckIcon} alt="" className="w-5 h-auto" />
           <p className="text-white leading-[156.4%] md:text-base text-sm">
             The Standard License grants you a non-exclusive right to navigate
             and register for our event
           </p>
         </div>
         <div className="flex items-start gap-x-3.5">
-          <Image src={CheckIcon} alt="" className="w-5 h-auto" />
+          <Image placeholder="blur"  src={CheckIcon} alt="" className="w-5 h-auto" />
           <p className="text-white leading-[156.4%] md:text-base text-sm">
             You are licensed to use the item available at any free source sites,
             for your project developement

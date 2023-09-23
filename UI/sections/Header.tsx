@@ -16,7 +16,7 @@ const Header = () => {
               <h2 className="italic font-bold text-white text-[36px] text-base">
                 Igniting a Revolution in HR Innovation
               </h2>
-              <Image
+              <Image placeholder="blur" 
                 alt=""
                 src={underlineImg}
                 className="absolute -bottom-2 right-0 h-[8px] w-auto"
@@ -31,12 +31,12 @@ const Header = () => {
                   Hackathon{' '}
                   <span className="text-[#D434FE] flex ml-2 items-center">
                     1.0{' '}
-                    <Image
+                    <Image placeholder="blur" 
                       src={chainImg}
                       alt=""
                       className=" sm:w-auto w-8 h-auto"
                     />{' '}
-                    <Image
+                    <Image placeholder="blur" 
                       src={sparkImg}
                       alt=""
                       className=" sm:w-auto w-8 h-auto"
@@ -62,7 +62,7 @@ const Header = () => {
                   Igniting a Revolution in HR{' '}
                   <span className="relative">
                     Innovation
-                    <Image
+                    <Image placeholder="blur" 
                       alt=""
                       src={underlineImg}
                       className="absolute -bottom-2 right-0 h-[17px] w-auto"
@@ -70,12 +70,12 @@ const Header = () => {
                   </span>
                 </h2>
               </div>
-              <Image
+              <Image placeholder="blur" 
                 className="md:w-full h-auto hidden md:flex"
                 src={headerImg}
                 alt=""
               />
-              <Image
+              <Image placeholder="blur" 
                 className="w-full h-auto flex md:hidden"
                 src={headerSmImg}
                 alt=""

@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <div className="py-[62px] bg-[#140D27] border-y border-white border-opacity-[0.18]">
       <div className="max-w-[1187px] mx-auto px-10 md:px-5 grid md:grid-cols-2 gap-y-3 gap-x-14 place-items-center">
-        <Image src={introImg} alt="" className="w-full h-auto" />
+        <Image placeholder="blur"  src={introImg} alt="" className="w-full h-auto" />
         <div>
           <div className="font-clash md:text-left text-center text-xl md:text-3xl font-bold text-white">
             <h1 className="">Introduction to getlinked</h1>
